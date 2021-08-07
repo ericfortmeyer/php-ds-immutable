@@ -1,2 +1,4 @@
 /vendor/
 .phan
+/coverage/
+/test-cache/
