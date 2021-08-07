@@ -45,6 +45,8 @@ jobs:
       run: composer analyze
 
     - name: Run test suite
+      env:
+        XDEBUG_MODE: coverage
       run: composer run-script test
 
     - name: Upload coverage results to Coveralls
