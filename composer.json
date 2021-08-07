@@ -19,6 +19,7 @@
         "test": "composer exec \"phpunit --coverage-clover=build/logs/clover.xml\"",
         "gen-coverage-badge": "composer exec \"php-coveralls\"",
         "analyze": "composer exec \"phan\"",
+        "analyze-init": "composer exec \"phan --init\"",
         "lint": "composer exec \"phpcs src --standard=PSR12\"",
         "lint-fix": "composer exec \"phpcbf src --standard=PSR12\""
     },
