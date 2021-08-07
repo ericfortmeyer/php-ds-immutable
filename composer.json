@@ -16,8 +16,8 @@
         }
     },
     "scripts": {
-        "test": "composer exec \"phpunit\"",
-        "gen-coverage": "composer exec \"psalm --shepherd\"",
+        "test": "composer exec \"phpunit --coverage-clover=build/logs/clover.xml\"",
+        "gen-coverage": "composer exec \"php-coveralls\"",
         "analyze": "composer exec \"phan\"",
         "lint": "composer exec \"phpcs src --standard=PSR12\"",
         "lint-fix": "composer exec \"phpcbf src --standard=PSR12\""

@@ -2,5 +2,6 @@
 .phan
 /coverage/
 /test-cache/
+/build/
 .phpunit.result.cache
-coveralls.yml
+.coveralls.yml
