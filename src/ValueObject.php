@@ -12,7 +12,6 @@ abstract class ValueObject implements Immutable
 
     public function __construct(protected mixed $value)
     {
-        
     }
 
     public function value(): mixed
