@@ -17,7 +17,7 @@
     },
     "scripts": {
         "test": "composer exec \"phpunit --coverage-clover=build/logs/clover.xml\"",
-        "gen-coverage-badge": "composer exec \"php-coveralls\"",
+        "gen-coverage-badge": "composer exec \"php-coveralls -v\"",
         "analyze": "composer exec \"phan\"",
         "analyze-init": "composer exec \"phan --init\"",
         "lint": "composer exec \"phpcs src --standard=PSR12\"",
